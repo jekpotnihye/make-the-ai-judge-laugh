@@ -2,6 +2,8 @@
 
 Writes the single entry line to /output/entry.txt, exactly as chosen,
 with no trailing newline, so the file holds the joke and nothing else.
+The gate allows 1 to 200 characters; this entry is 75, so it passes
+with room to spare and stays short for the smaller-text tie-break.
 """
 
 from pathlib import Path
